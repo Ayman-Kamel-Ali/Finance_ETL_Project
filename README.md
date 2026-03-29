@@ -29,6 +29,7 @@ I built an automated Python ETL pipeline that ingests daily market data (simulat
 4. Execute the pipeline: `python main.py`
 
 ## Project Structure
+
 ```
 finance_etl_project/
 │
