@@ -27,3 +27,23 @@ I built an automated Python ETL pipeline that ingests daily market data (simulat
 2. Install dependencies: `pip install -r requirements.txt`
 3. Generate the mock market data: `python src/generate_mock_market_data.py`
 4. Execute the pipeline: `python main.py`
+
+## Project Structure
+```
+finance_etl_project/
+│
+├── data/                  
+│   └── raw/                 
+│
+├── src/                   
+│   ├── __init__.py          
+│   ├── extract.py           
+│   ├── transform.py         
+│   └── load.py              
+│
+├── main.py
+├── README.md
+├── config.yaml
+├── .gitignore                  
+└── requirements.txt
+```
